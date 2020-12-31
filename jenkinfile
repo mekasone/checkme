@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage('Verify Branch') {
 			steps {
-				echo $FIRST_NAME $middle_name $Last_Name
+				echo "HELLOOOOWWW"
 			}
 		}
 	}
